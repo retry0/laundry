@@ -42,25 +42,25 @@ Password: pengguna
 
 
 Features:
--make stuff
+- Make stuff
 
--create the goods category
+- Create the goods category
 
--creating a laundry branch
+- Creating a laundry branch
 
 - make a complaint
 
--make testimony (Rating)
+- Make testimony (Rating)
 
--make an order
+- Make an order
 
--customer's own list
+- Customer's own list
 
--captcha
+- Captcha
 
--multi level user
+- Multi level user
 
--recovery Username
+- Recovery Username
 
 
 Contributing
