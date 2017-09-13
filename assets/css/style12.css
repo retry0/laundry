@@ -1,0 +1,180 @@
+/* CSS Document */
+body {
+	background-color: #fff;
+	font-family: AArial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+/* login */
+.login {
+	background-color: #FFF;
+	width: 35%;
+	min-width: 300px;
+	max-width: 600px;
+	margin: 6% auto auto auto;
+	border-radius: 10px;
+	min-height: 200px;
+}
+.login h1 {
+	border-radius: 10px 10px 0 0;
+	background-color: #00b01f;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+}
+.login form {
+	margin: 10px 20px;
+}
+.full {
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+}
+/* general */
+a, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: #00b01f;
+}
+label {
+	display: block;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #666;
+}
+input[type='text'], input[type='password'], textarea, select {
+	width: 94%;
+	padding: 8px 2%;
+	border-radius: 4px;
+	background-color: #F7F7F7;
+	border: solid thin #;
+}
+input[type='submit'], input[type='reset'] {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #00b01f;
+	color: #000;
+	cursor: pointer;
+}
+input[type='submit']:hover, input[type='reset']:hover {
+	background-color: #00b01f;
+}
+.warning {
+	color: #F00;
+}
+.sukses {
+	color: #090;
+}
+/* main page */
+.container {
+	width: 80%;
+	background-color: #00b01f;
+	min-width: 300px;
+	max-width: 1366px;
+	margin: 0 auto 20px auto;
+	border-radius: 0 0 10px 10px;
+	min-height: 200px;
+}
+header {
+	padding: 20px;
+	text-align: right;
+	font-size: 14px;
+}
+header a {
+	font-weight: bold;
+}
+nav {
+	background-color: #00b01f;
+	margin: 10px 20px;
+	height: 60px;
+	color: #00b01f;
+	padding: 0 10px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	float: left;
+	height: 60px;
+	list-style: none;
+}
+nav ul li a, nav ul li a:visited {
+	color: #FFF;
+	float: left;
+	padding: 20px;
+	height: 20px;
+}
+nav ul li a:hover {
+	background-color: #00b01f;
+	color: #00b01f;
+}
+article {
+	min-height: 200px;
+	padding: 10px 20px;
+	color: #00b01f;
+}
+article h1 {
+	border-bottom: dotted thin #00b01f;
+	font-size: 16px;
+}
+article form {
+	border: solid thin #00b01f;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+article th, article td {
+	border-bottom: solid thin #00b01f;
+	text-align: left;
+	vertical-align: top;
+	padding: 8px 12px;
+}
+article th {
+	background-color: #00b01f;
+}
+article tr:hover {
+	background-color: #00b01f;
+}
+/* pagination */
+.pagination {
+	border: solid thin #00b01f;
+	background-color: #00b01f;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 5px 20px;
+	height: 35px;
+	clear: both;
+}
+.pagination a, .pagination a:visited {
+	display: inline-block;
+	float: left;
+	padding: 10px 20px;
+	height: 15px;
+	background-color: #F60;
+	color: #00b01f;
+	margin-right: 2px;
+	border-radius: 4px;
+}
+.pagination a:hover {
+	background-color: #900;
+}
+/* footer */
+.clearfix {
+	clear: both;
+	margin-bottom: 10px;
+}
+footer {
+	background-color: #00b01f;
+	border-top: solid thin #00b01f;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	font-size: 12px;
+}
+
+

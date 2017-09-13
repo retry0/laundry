@@ -1,0 +1,182 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+body{
+	background-image: url('../img/green.jpg');
+	/*background-size: 100%;*/
+	background-attachment: fixed;
+	/*background-color: #eee;*/
+	/*background-repeat: repeat;*/
+	background-repeat: left;
+	/*font-family: 'Archivo Narrow';*/
+	font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+}
+/*.content,
+.header,
+.sidebar{
+	background:#fff;
+}*/
+a:hover{
+	text-decoration: none;
+}
+.btn.btn-flat {
+  	border-radius: 0;
+  	-webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+  	border-width: 1px;
+}
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #d2d6de;
+}
+.form-control:focus {
+  border-color: #3c8dbc;
+  box-shadow: none;
+}
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.container{
+	/*box-shadow: 0 0 5px 0;*/
+	background-color: #fff;
+	padding: 0;
+	width: 1100px;
+}
+.header{
+	padding: 0;
+}
+.header-menu{
+	background-color: #00b01f;
+	/*border-top: 2px solid #005709;*/
+	border-bottom:  2px solid #005709;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+	.header-menu > .navbar-nav > li > a{
+		padding: 10px 15px;
+		font-family: 'Ubuntu Condensed';
+		color: #FFFFFF;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.header-menu > .navbar-nav > li > a:hover i{
+		color: #dd3737;
+	}
+	.navbar-nav > li:hover{
+		/*background: url('../img/bg-menu-hover.png') no-repeat #163a73;*/
+		background: #007711;
+		background-position: center;
+	}
+	.navbar-nav > li:hover > .dropdown-menu{
+		display: block;
+	}
+.bg_content{
+	/*background: #81d879;*/
+	background:rgba(0,0,0,0.4);
+	padding: 10px;
+	width: 1120px;
+}
+.content{
+	padding: 0 10px 0 0;
+}
+	.img-thumbnail{
+		padding: 1px;
+		line-height: 1.42857143;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+	}
+	.panel{
+		border:0;
+		border-radius: 0;
+		box-shadow: none;
+		padding:0;
+	}
+	.panel > .panel-heading{
+		/*background: url('../img/bg-menu.png') no-repeat #5d8fde;*/
+		border-top:  2px solid #005709;
+		background: #00b01f;
+		background-position: right;
+		border-radius: 0;
+		padding: 8px;
+	}
+	.panel > .panel-heading > .panel-title{
+		font-family: 'Fjalla One';
+		color: #FFFFFF;
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.panel > .panel-body{
+		padding: 20px 0 0 0;
+		border:0;
+	}
+
+.detailberita{
+	padding: 15px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	font-family: 'Alegreya Sans';
+}
+	.detailberita h2 a{
+		color: #005709;
+	}
+
+.sidebar{
+	padding: 0 10px;
+}
+
+.top-footer{
+	background-color: #eee;
+	padding:20px 0 0 0;
+	color: #000000;
+}
+	.media-heading{
+		text-transform: capitalize;
+	}
+	.media-heading a{
+		color: #005709;
+		transition: all 0.2s;
+	}
+	.media-heading a:hover{
+		color: #3dc346;
+	}
+	.top-footer > .left > .panel,
+	.top-footer > .center > .panel,
+	.top-footer > .right > .panel{
+		background-color: transparent;
+	}
+	.top-footer > .left > .panel > .panel-heading,
+	.top-footer > .center > .panel > .panel-heading,
+	.top-footer > .right > .panel > .panel-heading{
+		/*padding: 0 0 10px 0 !important;*/
+		/*background-color: transparent !important;*/
+		/*background-image: none;*/
+		/*border-bottom: 2px solid #FFFFFF;*/
+		/*border-top:  2px solid #005709;*/
+	}
+.bottom-footer{
+	background-color: #019219;
+	border-top: 2px solid #005709;
+	font-family: 'Play';
+	text-align: center;
+	padding: 20px 0 35px 0;
+	color: #FFFFFF;
+}
+.banner{
+	text-align: right;
+	padding: 10px;
+}
+	.banner img{
+		border: 1px solid #eee;
+	}

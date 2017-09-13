@@ -1,0 +1,46 @@
+All retry4 code is Copyright 2017 by the original authors.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program as the file LICENSE.txt; if not, please see
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.
+
+KuNaon includes works under other copyright notices and distributed
+according to the terms of the GNU General Public License or a compatible
+license, including:
+
+Admin Template
+  AdminLTE   Almsaeed Studio https://almsaeedstudio.com
+CSS
+  Bootstrap 3 https://github.com/twbs/bootstrap
+Javascript
+  jQuery 2.2.3            jQuery Foundation | jquery.org
+  Bootstrap 3.3.6         Bootstrap v3.3.7 (http://getbootstrap.com)
+  SlimScroll              Piotr Rochala (http://rocha.la)
+  Sweet ALert             Tristan Edwards github.com/t4t5/sweetalert
+  FastClick               The Financial Times Limited
+  Validator               https://github.com/1000hz/bootstrap-validator
+  Select2                 https://github.com/select2/select2/blob/master/LICENSE.md
+  DataTable               SpryMedia http://www.datatables.net
+  Mask Money              Diego Plentz https://github.com/plentz/jquery-maskmoney
+  NiceScroll              jquery.nicescroll 3.2.0 InuYaksa*2013 MIT http://areaaperta.com/nicescroll
+  Numeral                 Adam Draper http://adamwdraper.github.com/Numeral-js/
+  iCheck 1.0.1            Damir Sultanov, http://fronteed.com
+  image cropping          fengyuanchen https://github.com/fengyuanchen/cropper
+  date-range-picker       Stefan Petre https://github.com/eternicode/bootstrap-datepicker/
+  bootstrap color picker  Bootstrap Colorpicker http://mjolnic.github.io/bootstrap-colorpicker/
+  bootstrap clock picker  Wang Shenwei http://weareoutman.github.io/clockpicker
+  Flot                    IOLA and Ole Laursen. 
+PHP
+  CodeIgniter           https://codeigniter.com/
+  TCPDF                 Nicola Asuni  - Tecnick.com LTD
+  Barcode Genarator     Casper Bakker - picqer.com

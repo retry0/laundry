@@ -1,0 +1,164 @@
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+    background-color: #fff;
+    margin: 40px;
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+}
+
+a {
+    color: #003399;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h1 {
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+
+code {
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    color: #002166;
+    display: block;
+    margin: 14px 0 14px 0;
+    padding: 12px 10px 12px 10px;
+}
+
+#body {
+    margin: 0 15px 0 15px;
+}
+
+p.footer {
+    text-align: right;
+    font-size: 11px;
+    border-top: 1px solid #D0D0D0;
+    line-height: 32px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 0 0;
+}
+
+#container {
+    margin: 10px;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+}
+
+#table-friend tr {
+    height: 30px;
+    background: #cddbde;
+}
+
+#table-friend tr a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #444;
+}
+
+
+
+/* message box header styles*/
+
+.msg-wgt-container {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #888888;
+    background: #ffffff;
+    z-order: 10000;
+}
+
+.minimize.msg-wgt-container {
+    height: 29px;
+}
+
+.msg-wgt-header {
+    width: 100%;
+    height: 30px;
+    line-height: 2.5em;
+    text-align: center;
+    background: #6f85b5
+}
+
+.msg-wgt-header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.msg-wgt-header a.online {
+    width: 10px;
+    height: 10px;
+    background: #66d266;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px;
+}
+
+.msg-wgt-header a.close {
+    position: absolute;
+    right: 10px;
+    opacity: .7
+}
+
+.msg-wgt-message-container {
+    width: 100%;
+    height: 230px;
+    overflow-y: scroll;
+}
+
+.msg-wgt-message-list {
+    width: 100%;
+}
+
+tr.msg-wgt-message-list-header {
+    color: #999;
+    font-size: 9px;
+    vertical-align: top;
+}
+
+tr.msg-wgt-message-list-header img {
+    width: 42px;
+}
+
+tr.msg-wgt-message-list-header .name {
+    text-align: left;
+}
+
+tr.msg-wgt-message-list-header .time {
+    text-align: right;
+}
+
+tr.msg-wgt-message-list-body td {
+    font-size: 11px;
+    color: #777;
+}
+
+tr.msg-wgt-message-list-separator td {
+    border-bottom: 1px solid #ddd;
+}
+
+.msg-wgt-message-form {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.msg-wgt-message-form textarea {
+    width: 98%;
+    border: 0;
+    height: 40px;
+}

@@ -1,0 +1,55 @@
+body{
+	font-size: 12pt;
+	font-family: Consolas, Trebuchet MS, Calibri;
+	color: #4F5155;
+    background-color: #C8F2C8;
+    margin: 0px auto;
+}
+h2 {
+	font: normal 200% Consolas;
+	line-height: 200%;
+}
+
+/* punyanya tabel*/
+table {
+	font-family: Consolas;
+	border-collapse: collapse;
+}
+th{
+	color: #fa0707;
+	font-size: 14pt;
+	text-align: center;
+	padding: 0.5em;
+	border:solid 0px;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #C1C1C1;
+	border-style: solid;
+	border-collapse: collapse;
+}    
+td{
+	font-family: Consolas;
+	border:solid 0px;
+    border-color: #C1C1C1;
+	padding: 0.5em;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+#kotaklogin{
+	-webkit-box-shadow: 5px 5px 8px #D0D0D0;
+	width: 300px;	
+	margin: 150px auto;
+}
+.kotakloginb{
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	background-color:#07e6fa
+}
+.kotakloginh{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	background-color:#07e6fa;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
