@@ -21,11 +21,11 @@ How to Install
 Upload backend data on your php server
 Create database name 'db_laundry'
 Import MySQL Database to PHPMyAdmin
-Setting the system to root (http: // localhost / Laundry /)
+Setting the system to root (http://localhost/Laundry/)
 
 
-Accessing the Back End with (http: // localhost / Laundry /)
-Accessing the Front End with (http: // localhost / Laundry / web)
+Accessing the Back End with (http://localhost/Laundry/)
+Accessing the Front End with (http://localhost/Laundry/web)
 
 
 
