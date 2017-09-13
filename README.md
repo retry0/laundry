@@ -31,13 +31,13 @@ Accessing the Front End with (http://localhost/Laundry/web)
 
 Login Application
 
-Username: pemilik
+- Username: pemilik
 Password: pemilik
 
-Username: pegawai
+- Username: pegawai
 Password: pegawai
 
-Username: pengguna
+- Username: pengguna
 Password: pengguna
 
 
