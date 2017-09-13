@@ -43,14 +43,23 @@ Password: pengguna
 
 Features:
 -make stuff
+
 -create the goods category
+
 -creating a laundry branch
+
 - make a complaint
+
 -make testimony (Rating)
+
 -make an order
+
 -customer's own list
+
 -captcha
+
 -multi level user
+
 -recovery Username
 
 
